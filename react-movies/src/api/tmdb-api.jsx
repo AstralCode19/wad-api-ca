@@ -169,3 +169,15 @@ export const getMovie = (args) => {
       throw error
     });
   };
+
+
+  // Login/signup
+  export const accountLogin = async (username, password) => {
+    const response = await
+    fetch(`http://localhost:8080/api/users`, {
+      headers : {'Content-Type' : 'application/json'},
+      method : 'post',
+      body : JSON.stringify({username : username, password : password})
+    });
+    return response.json();
+  };
