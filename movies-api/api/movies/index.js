@@ -10,5 +10,4 @@ router.get('/discover', asyncHandler(async (req, res) => {
     res.status(200).json(discoverMovies);
 }));
 
-
 export default router;
