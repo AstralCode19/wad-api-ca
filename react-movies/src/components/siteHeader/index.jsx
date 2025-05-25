@@ -51,7 +51,7 @@ const SiteHeader = ({ history }) => {
             TMDB Client
           </Typography>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            Welcome to the movie app that'll keep you up to date!
+            Welcome to the movie app that will keep you up to date!
           </Typography>
             {isMobile ? (
               <>
