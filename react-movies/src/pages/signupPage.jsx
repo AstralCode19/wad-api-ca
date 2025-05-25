@@ -8,10 +8,10 @@ const SignupPage = () => {
             <input placeholder="Username"></input><br />
             <input type="password" placeholder="Password"></input><br />
             <input type="password" placeholder="Password again"></input>
-            <button>Log In</button>
+            <button>Sign up</button>
 
             <p>If you already have an account, please login, or feel free to browse without one.</p>
-            <p><Link to="/signup">Register</Link></p>
+            <p><Link to="/login">Log in</Link></p>
             <p><Link to="/">Home</Link></p>
         </>
     );
