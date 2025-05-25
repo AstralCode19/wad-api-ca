@@ -22,8 +22,13 @@ export const getUpcomingMovies = async () => {
     return await response.json();
 };
 
-// export const getMovie = async () => {
-//     const response =await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${import.meta.env.VITE_TMDB_KEY}`);
+
+//Parameterised
+// export const getMovie = async (args) => {
+//     console.log(args);
+//     const [, idPart] = args.queryKey;
+//     const { id } = idPart;
+//     const response =await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.TMDB_KEY}`);
 
 //     if (!response.ok) {
 //         throw new Error(response.json().message);
