@@ -5,7 +5,7 @@ const LoginPage = () => {
         <>
             <h2>Login</h2>
             <p>Log in to see your own Favourites and Watch List</p>
-            <input id="username" placeholder="Username"></input><bt />
+            <input id="username" placeholder="Username"></input><br />
             <input id="password" type="password" placeholder="Password"></input>
             <button>Log In</button>
 
