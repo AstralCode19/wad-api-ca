@@ -1,5 +1,6 @@
-// import {useState, createContext} from "react";
-// import { accountLogin } from "../api/tmdb-api";
+import {useState, createContext} from "react";
+import { accountLogin } from "../api/tmdb-api";
+import { accountSignup } from "../api/tmdb-api";
 
 // export const AuthenticationContext = createContext(null);
 
