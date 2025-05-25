@@ -59,7 +59,7 @@ export const getNowPlaying = async () => {
 
 //Parameterised
 // export const getMovie = async (args) => {
-//     console.log(args);
+//     // console.log(args);
 //     const [, idPart] = args.queryKey;
 //     const { id } = idPart;
 //     const response =await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.TMDB_KEY}`);

@@ -36,8 +36,8 @@ router.get('/now_playing', asyncHandler(async (req, res) => {
     res.status(200).json(nowPlayingMovies);
 }));
 
-//Parameterised Route
-// router.get('/${movie.id}', asyncHandler(async (req, res) => {
+// Parameterised Route
+// router.get('/:id', asyncHandler(async (req, res) => {
 //     const movieDetails = await getMovie();
 //     res.status(200).json(movieDetails);
 // }));
